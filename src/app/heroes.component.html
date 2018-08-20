@@ -10,7 +10,7 @@
 </ul>
 
 <div class="error" *ngIf="error">{{error}}</div>
-<button (click)="addHero()">Ajouter un hero</button>
+<button (click)="addHero()">Ajouter un héros</button>
 <div *ngIf="addingHero">
   <my-hero-detail (close)="close($event)"></my-hero-detail>
 </div>
